@@ -1,0 +1,4 @@
+login Bob_05
+escrow 20
+sell 10 4
+expect SOLD

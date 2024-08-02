@@ -1,0 +1,4 @@
+login Alice_04
+deposit 100
+buy 10 5
+expect BOUGHT
