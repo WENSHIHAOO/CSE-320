@@ -1,7 +1,3 @@
-# Shihao Wen
-## 113085521
-:grin:
-Eugene W. Stark - CSE 320
 
 ACADEMIC HONESTY STATEMENT
 ================================================================================
@@ -39,4 +35,3 @@ my submission. Such permission is best requested and obtained by E-mail to
 cse320@cs.stonybrook.edu
 ================================================================================
 Signed:
-Mon 22 Aug 2022 09:45:14 PM UTC - Shihao Wen
