@@ -1,0 +1,20 @@
+diff --git a/hw4/src/master.c b/hw4/src/master.c
+index a9e8aa7..b063785 100644
+--- a/hw4/src/master.c
++++ b/hw4/src/master.c
+@@ -95,7 +95,6 @@ int master(int workers) {
+             char *args[] = {"bin/polya_worker", NULL};
+             //execv(binaryPath, args);
+             sf_suppress_chatter=0;
+-            sf_change_state(pid[i], 0, WORKER_STARTED);
+             if (execve(args[0], args, NULL) < 0) {
+                 printf("%s: BinaryPath not found.\n", args[0]);
+                 close(fd1[0]);
+@@ -160,6 +159,7 @@ int master(int workers) {
+             //started or stopped
+             if(init==0){
+                 sf_suppress_chatter=0;
++                sf_change_state(pid[i], 0, WORKER_STARTED);
+                 sf_change_state(pid[i], WORKER_STARTED, WORKER_IDLE);
+             }
+ 
